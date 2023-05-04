@@ -1,0 +1,29 @@
+$Brown:#4D2C19;
+
+
+
+.headline {
+    font-size: 2rem;
+    color: $Brown;
+    margin-top: 1rem;
+    
+  }
+
+.navbar {
+
+
+  background:$Brown;
+  
+
+}
+
+.navbarHeadings{
+  
+  font-size: small;
+  font-family:'jost';
+  letter-spacing: 3px;
+  color: #FFF9EE;
+  &:hover{
+    color:#b67e15;
+  }
+}
