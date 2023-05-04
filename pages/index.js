@@ -11,6 +11,8 @@ import Herodeading from '@/components/CommonComponents/heroHeading/heroHeading'
 import DescriptionBanner from '@/components/CommonComponents/Banner/descriptionbanner/descriptionBanner'
 import CardSlider from '@/components/CommonComponents/Slider/cardSlider'
 import styles from '../components/CommonComponents/CardView/CardView.module.scss'
+import Herobanner from '@/components/CommonComponents/Banner/Herobanner/HeroBanner'
+import heroimage1 from '../public/images/heroimage.png'
 
 
 
