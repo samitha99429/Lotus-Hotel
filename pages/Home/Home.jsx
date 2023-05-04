@@ -13,18 +13,17 @@ import HeroBannerData from '@/data/descriptionData/descriptionData.json'
 function HomePage() {
   return (
     <div> 
-        <Header/>
         <Herobanner src={heroimage1}></Herobanner>
-        <DescriptionBanner/>
-        <div className='py-4 px-4'>
-        <div className='grid grid-cols-4 gap-4' >
+        {/* <DescriptionBanner/> */}
+        {/* <div className='py-4 px-4 '>
+        <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1  gap-4' >
             {cartViewData.map((cv, i) => (
                 <CardView key={i} imageLink={cv.imageLink} title={cv.title} />
               ))}
           </div>
         </div>
         <Slider/>
-        <Footer/> 
+        <Footer/>  */}
     </div>
   )
 }
