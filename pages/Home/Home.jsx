@@ -13,7 +13,7 @@ import HeroBannerData from '@/data/descriptionData/descriptionData.json'
 function HomePage() {
   return (
     <div> 
-        <Herobanner src={heroimage1}></Herobanner>
+        <Herobanner src={heroimage1}> </Herobanner>
         {/* <DescriptionBanner/> */}
         {/* <div className='py-4 px-4 '>
         <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1  gap-4' >
