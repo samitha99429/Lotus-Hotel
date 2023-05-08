@@ -13,6 +13,9 @@ import CardSlider from '@/components/CommonComponents/Slider/cardSlider'
 import styles from '../components/CommonComponents/CardView/CardView.module.scss'
 import Herobanner from '@/components/CommonComponents/Banner/Herobanner/HeroBanner'
 import heroimage1 from '../public/images/heroimage.png'
+import AppRoutes from '@/appRoutes/appRoutes'
+import Contact from './contact/contact'
+
 
 
 
@@ -20,9 +23,12 @@ import heroimage1 from '../public/images/heroimage.png'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function Home({children}) {
   return (
+    <div>
  <HomePage/>
+ {children}
+ </div>
   )
 }
 

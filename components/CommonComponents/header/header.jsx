@@ -20,7 +20,7 @@ function Header() {
                   <li><a href="#" className={styles.navbarHeadingsleft}>ABOUT</a></li>
                   <li><a href="#" className={styles.navbarHeadings}>CONFERENCE</a></li>
                   <li><a href="#" className={styles.navbarHeadings}>GALLERY</a></li>
-                  <li><a href="#" className={styles.navbarHeadings}>CONTACT</a></li>
+                  <li><a href="contact/contact" className={styles.navbarHeadings}>CONTACT</a></li>
                 </ul>
               </nav>
             </div>

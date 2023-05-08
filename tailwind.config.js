@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       colors: {
         'button-color': '#4D2C19',
+        'heading-color':'#4D2C19',
       },
       letterSpacing: {
         tightest: '-.075em',

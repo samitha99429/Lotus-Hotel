@@ -2,7 +2,7 @@ $Brown: #4D2C19;
 
 .headingOne{
 
-  
+    
     width: 416px;
     height: 97px;
     left: 0px;
@@ -11,10 +11,6 @@ $Brown: #4D2C19;
     font-family: 'Rodeluxet';
     font-style: normal;
     font-weight: 400;
-    font-size: 70px;
-    line-height: 97px;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D2C19;
@@ -33,12 +29,7 @@ $Brown: #4D2C19;
     font-family: 'Rodeluxet';
     font-style: normal;
     font-weight: 400;
-    font-size: 120px;
-    line-height: 167px;
 /* identical to box height */
-
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
@@ -50,7 +41,6 @@ $Brown: #4D2C19;
 .description{
 width: 573px;
 height: 136px;
-margin-left: 700px;
 padding-top: 10px;
 
 /* Paragraph/1/Regular */
@@ -58,7 +48,6 @@ padding-top: 10px;
 font-family: 'Jost';
 font-style: normal;
 font-weight: 400;
-font-size: 19.2px;
 line-height: 34px;
 /* or 177% */
 
