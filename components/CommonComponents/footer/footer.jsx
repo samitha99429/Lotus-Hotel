@@ -27,7 +27,7 @@ const Footer = () => {
 
                 </div>
                 <div>
-                <p className={styles.description}>
+                <p className={`${styles.description} text-s md:text-sm`} >
                   Where the lavishness of luxury meets the warmth of authentic African hospitality. Discover the true serenity and comfort of Malawi.
               
                 </p>

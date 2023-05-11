@@ -2,13 +2,14 @@ import React from 'react'
 import logo from '../../../public/images/Logo/Lotus 2 (1).png'
 import Image from 'next/image';
 import styles from '../header/header.module.scss'
+import vector from '../../../public/images/headerVectorImage/Vector.png'
 
 function Header() {
   return (
     <div>
         <div>
-        <header className={styles.navbar}>
-          <div className="container mx-auto px-4 md:px-6 lg:px-8 flex justify-between items-center py-4 bg-transparent ">
+        <header className={`${styles.navbar} w-full fixed bg-transparent`}>
+          <div className="container mx-auto px-4 md:px-6 lg:px-8 flex justify-between items-center py-4  ">
             
             <div className="hidden md:flex">
               <nav>
@@ -22,6 +23,7 @@ function Header() {
                   <li><a href="#" className={styles.navbarHeadings}>CONFERENCE</a></li>
                   <li><a href="#" className={styles.navbarHeadings}>GALLERY</a></li>
                   <li><a href="contact/contact" className={styles.navbarHeadings}>CONTACT</a></li>
+                  <li><a href='#' className=''> <Image src={vector} width={20} height={15}/> </a></li>
                 </ul>
               </nav>
             </div>

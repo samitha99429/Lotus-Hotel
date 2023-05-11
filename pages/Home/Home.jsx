@@ -18,8 +18,10 @@ import accomadationCardData from '@/data/accomadationCardData/accomadationCardDa
 function HomePage() {
   return (
     <div className=''> 
-   
-        <Herobanner src={heroimage1}> </Herobanner>
+           
+        <Herobanner src={heroimage1}> 
+      
+        </Herobanner>
          <DescriptionBanner/>
          <div className='py-4 px-4 '>
         <div className=' md:container md:mx-auto grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1  gap-4' >
