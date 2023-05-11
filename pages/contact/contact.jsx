@@ -1,8 +1,13 @@
+import Herobanner from '@/components/CommonComponents/Banner/Herobanner/HeroBanner'
+import Header from '@/components/CommonComponents/header/header'
 import React from 'react'
 
 function Contact() {
   return (
-    <div>hello contact</div>
+    <div>
+      <Header/>
+      <Herobanner/>
+    </div>
   )
 }
 

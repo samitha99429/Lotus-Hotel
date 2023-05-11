@@ -3,8 +3,7 @@ $Brown: #4D2C19;
 .headingOne{
 
     
-    width: 416px;
-    height: 97px;
+  
     left: 0px;
     top: 0px;
     
@@ -21,8 +20,7 @@ $Brown: #4D2C19;
 .headingTwo{
 
  
-    width: 472px;
-    height: 167px;
+   
     left: 170px;
     top: 72px;
 
@@ -39,13 +37,12 @@ $Brown: #4D2C19;
 }
 
 .description{
-width: 573px;
-height: 136px;
+
 padding-top: 10px;
 
 /* Paragraph/1/Regular */
 
-font-family: 'Jost';
+
 font-style: normal;
 font-weight: 400;
 line-height: 34px;
@@ -65,8 +62,7 @@ flex-grow: 0;
 .DescriptionBanner{
 
   
-    width: 1920px;
-    height: 405px;
+  
 
 /* Individual/Lotus/Background */
 
@@ -78,4 +74,9 @@ flex-grow: 0;
     order: 1;
     flex-grow: 0;
     z-index: 1;
+}
+
+.sendButton{
+
+    color: #4D2C19;
 }

@@ -19,7 +19,7 @@ export default function CardSlider() {
    
   };
   return (
-    <Slider {...settings}>
+      <Slider {...settings} className="md:container md:mx-auto">
 
       {cartViewData.map((cv, i) => (
                 <CardView key={i} imageLink={cv.imageLink} title={cv.title} />

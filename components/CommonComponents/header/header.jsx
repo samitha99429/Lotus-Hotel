@@ -8,16 +8,17 @@ function Header() {
     <div>
         <div>
         <header className={styles.navbar}>
-          <div className="container mx-auto px-4 md:px-6 lg:px-8 flex justify-between items-center py-4 ">
-            <div className="flex items-center">
-              <Image className={styles.logoimg} src={logo}  />
-            </div>
+          <div className="container mx-auto px-4 md:px-6 lg:px-8 flex justify-between items-center py-4 bg-transparent ">
+            
             <div className="hidden md:flex">
               <nav>
-                <ul className="flex items-center space-x-4 md:space-x-6">
-                  <li><a href="#" className={styles.navbarHeadingsleft}>ACCOMMODATIONS</a></li>
-                  <li><a href="#" className={styles.navbarHeadingsleft}>EXPERIENCE</a></li>
-                  <li><a href="#" className={styles.navbarHeadingsleft}>ABOUT</a></li>
+                <ul className="flex items-center space-x-4 md:space-x-16 md:justify-center">
+                  <li><a href="#" className={styles.navbarHeadings}>ACCOMMODATIONS</a></li>
+                  <li><a href="#" className={styles.navbarHeadings}>EXPERIENCE</a></li>
+                  <li><a href="#" className={styles.navbarHeadings}>ABOUT</a></li>
+                  <li><div className="flex items-center md:justify-center md:px-10 ">
+              <Image className={styles.logoimg} src={logo}  />
+            </div></li>
                   <li><a href="#" className={styles.navbarHeadings}>CONFERENCE</a></li>
                   <li><a href="#" className={styles.navbarHeadings}>GALLERY</a></li>
                   <li><a href="contact/contact" className={styles.navbarHeadings}>CONTACT</a></li>

@@ -8,6 +8,7 @@ module.exports = {
       colors: {
         'button-color': '#4D2C19',
         'heading-color':'#4D2C19',
+        'title-color':'##2E2E2E',
       },
       letterSpacing: {
         tightest: '-.075em',

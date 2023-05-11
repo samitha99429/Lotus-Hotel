@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 
     var $ = require("jquery");
 if (typeof window !== "undefined") {
@@ -57,4 +57,4 @@ export default function Slider(){
 
 
     )
-}
+}*/
